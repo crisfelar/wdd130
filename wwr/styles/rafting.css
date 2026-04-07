@@ -3,6 +3,9 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
+    --white-color: #fff;
+    --black-color: #000;
+    --color: #222222;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -62,7 +65,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--white-color);
 }
 
 .hero article {
@@ -93,14 +96,14 @@ article {
     font-size: 20px;
     margin: 0;
     padding: 10px 15px 8px;
-    color: #000;
+    color: var(--black-color);
 }
 
 .grid {
     display: grid;
     grid-template-columns: 2fr 4fr;
     align-items: center;
-    background-color: #e9c46a;
+    background-color: var(--accent2-color);
     margin: 10px 20px;
     padding: 20px;
     border: 2px solid var(--accent1-color);
@@ -142,7 +145,7 @@ ul {
     justify-self: center;
     align-self: center;
     text-decoration: none;
-    color: #fff;
+    color: var(--white-color);
     padding: 20px 50px;
     border: 1px solid var(--secondary-color);
     background-color: var(--accent1-color);
@@ -176,7 +179,7 @@ ul {
     justify-self: center;
     width: 250px;
     margin: 15px;
-    border: solid 2px #000;
+    border: solid 2px var(--black-color);
 }
 
 .sec2,
@@ -217,8 +220,8 @@ ul {
 }
 
 figcaption {
-    background-color: #222222;
-    color: white;
+    background-color: var(--color);
+    color: var(--white-color);
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
@@ -245,6 +248,6 @@ figcaption {
 .last p {
     display: flex;
     justify-content: end;
-    color: #000;
+    color: var(--black-color);
     font-size: 20px;
 }
