@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <meta name="description"
+      content="On this page you will find the needing sources to get in contact with our interested adventurers">
+    <meta name="author" content="Cristian Felipe Arias Leal">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header class="grid">
+        <img src="images/rafting-ants.png" alt="non-motorized watercraft over the word RAPIDS"
+          class="image">
+        <nav class="height">
+            <ul class="flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-container">
+        <section>
+            <h1>Rafting Ant</h1>
+            <p>Carrera 135#17-84</p>
+            <p>+315 2394887</p>
+            <p>raftingant24@gmail.com</p>
+        </section>
+        <div>
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4309148044135!2d-74.16994932421787!3d4.694948041705772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9dd2d9bec1f5%3A0x96690dbe5dd0872d!2sEstaci%C3%B3n%20Fontib%C3%B3n%20%7C%20Conjunto%20residencial!5e0!3m2!1ses!2sco!4v1775965925439!5m2!1ses!2sco"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="grid-row">
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="PlaceHolder" required>
+            </div>
+            <div class="grid-row">
+                <label for="email">Email</label>
+                <input type="email" id="useremail" name="useremail" placeholder="PlaceHolder"
+                  required>
+            </div>
+            <div class="grid-row">
+                <label>Message Purpose</label>
+                <div class="radio-group">
+                    <label><input type="radio" id="general" name="purpose" value="general">General
+                        Inquiry</label>
+                    <label><input type="radio" id="general" name="purpose"
+                          value="reservation">Reservation Question</label>
+                    <label><input type="radio" id="general" name="purpose" value="website">Website
+                        Suggestion</label>
+                </div>
+            </div>
+            <div class="message-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type Here" rows="4"></textarea>
+            </div>
+            <div class="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+            </div>
+            <button type="submit">Get in Touch!</button>
+        </form>
+        <section class="raft">
+            <h2>We Are Here To Serve You</h2>
+            <div class="chef">
+                <figure>
+                    <img src="images/cristian.jpg" alt="Cris" />
+                    <figcaption>Cris</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/maria-fernanda.jpg" alt="Mafe" />
+                    <figcaption>Mafe</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/sebastian.jpg" alt="Sebas" />
+                    <figcaption>Sebas</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="last">
+        <p>&copy;2026 &#10070; Rafting Ant &#10070; Cristian Felipe Arias Leal</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/" target="_blank"><img
+                  src="images/facebook-square.png" alt="facebook logo" width="50"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img
+                  src="images/instagram-square.png" alt="instagram logo" width="50"></a>
+            <a href="https://api.whatsapp.com/" target="_blank"><img src="images/whatsapp.png"
+                  alt="whatsapp logo" width="50"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
