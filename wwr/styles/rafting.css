@@ -555,7 +555,6 @@ input[type="email"] {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     gap: 10px;
-    background-color: var();
     width: 100%;
     padding: 20px;
     margin: 0;
