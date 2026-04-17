@@ -542,11 +542,16 @@ input[type="email"] {
     grid-row: 2/3;
 }
 
-.image-box-1,
-.image-box-2 {
-    border: 3px solid var(--third-color);
+.image-box-1 img {
     height: 185px;
     width: 100%;
+    border: 3px solid var(--third-color);
+}
+
+.image-box-2 img {
+    height: 185px;
+    width: 100%;
+    border: 3px solid var(--third-color);
 }
 
 .offerings-box {
